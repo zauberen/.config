@@ -1,0 +1,3 @@
+theme = noctalia
+shell-integration-features = ssh-terminfo,ssh-env
+keybind = ctrl+left_bracket=text:\x1b
