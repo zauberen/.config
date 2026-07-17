@@ -1,3 +1,5 @@
-theme = noctalia
+theme = Popping And Locking
+# theme = Mellow
+# theme = Everforest Dark Hard
 shell-integration-features = ssh-terminfo,ssh-env
 keybind = ctrl+left_bracket=text:\x1b
