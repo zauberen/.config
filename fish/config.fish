@@ -155,3 +155,6 @@ set -gx PATH "/home/zauberin/.local/bin" $PATH
 if not contains /usr/local/lib $LD_LIBRARY_PATH
     set -gx LD_LIBRARY_PATH "/usr/local/lib" $LD_LIBRARY_PATH
 end
+
+# opencode
+fish_add_path /home/zauberin/.opencode/bin

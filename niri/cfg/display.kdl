@@ -7,3 +7,44 @@
     mode "2560x1440@359.979" // Set resolution and refresh rate
     scale 1 // No scaling (use 2 for HiDPI)
 }
+
+output "eDP-1" {
+    // Built-in laptop display (Far Left)
+    mode "1920x1080@60.020"
+    scale 1.25
+    position x=0 y=0
+}
+
+// Wolfy dock
+output "DP-5" {
+    // Hewlett Packard HP E242 (Middle)
+    mode "1920x1200@59.950"
+    scale 1.0
+    position x=1536 y=0
+}
+output "DP-11" {
+    // Hewlett Packard HP Z24n (Far Right)
+    mode "1920x1200@59.950"
+    scale 1.0
+    position x=3456 y=0
+}
+
+// HP dock
+output "DP-6" {
+    mode "1920x1200@59.950"
+    scale 1.0
+    position x=1536 y=0
+}
+output "DP-8" {
+    mode "1920x1200@59.950"
+    scale 1.0
+    position x=3456 y=0
+}
+
+// You can't mirror fml
+// output "Mitsubishi Electric Corporation Mitsubishi  0x00000927" {
+//     // Hewlett Packard HP E242 (Middle)
+//     mode "1024x768@60.004"
+//     scale 1.0
+//     position x=1536 y=0
+// }
