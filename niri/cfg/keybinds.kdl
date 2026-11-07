@@ -13,12 +13,12 @@ binds {
     Mod+Space                           hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "noctalia msg panel-toggle launcher"; }
     Mod+S                               hotkey-overlay-title="Control Center" { spawn-sh "noctalia msg panel-toggle control-center"; }
     Mod+Comma                           hotkey-overlay-title="Settings" { spawn-sh "noctalia msg settings-toggle"; }
-    Mod+B                               hotkey-overlay-title="Open Browser" { spawn "google-chrome-stable"; }
+    Mod+B                               hotkey-overlay-title="Open Browser" { spawn "firefox"; }
     Mod+ALT+L                           hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
     Mod+Shift+Q                         hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
 
     // Please choose your own file manager.
-    Mod+E                               hotkey-overlay-title="File Manager" { spawn "cosmic-files"; }
+    Mod+E                               hotkey-overlay-title="File Manager" { spawn "thunar"; }
 
     // ─── Media Controls ───
     XF86AudioRaiseVolume                allow-when-locked=true { spawn-sh "noctalia msg volume-up"; }
