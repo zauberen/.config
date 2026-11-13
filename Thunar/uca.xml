@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>com.mitchellh.ghostty</icon>
+	<name>Open Ghostty Here</name>
+	<submenu></submenu>
+	<unique-id>1794100000000000-1</unique-id>
+	<command>ghostty --working-directory=%f</command>
+	<description>Open Ghostty in this folder</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+</actions>
